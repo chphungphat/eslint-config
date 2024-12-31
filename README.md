@@ -6,7 +6,7 @@ This repository contains the shared ESLint configuration used by the Minimal Tec
 
 First of all, ensure that Node.js and pnpm are installed in your system. Then, run the following command to install the package:
 
-```
+```bash
 pnpm add -D @minimaltech/eslint-{node|next|react|react-native}
 ```
 

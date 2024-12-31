@@ -108,6 +108,7 @@ const configs: ReturnType<typeof tsEslint.config> = [
             "activate",
             "deactivated",
             "deactivate",
+            "ignore",
           ],
         },
         {
