@@ -15,11 +15,15 @@ on:
 
       build_mode:
         type: choice
-        description: Build Mode (patch|minor|major)
+        description: Build Mode (patch | minor | major | prepatch | preminor | premajor | prerelease)
         options:
           - patch
           - minor
           - major
+          - prepatch
+          - preminor
+          - premajor
+          - prerelease
 
 env:
   MODULE: ${{ github.event.inputs.module }}

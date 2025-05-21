@@ -4,13 +4,13 @@ module=$1
 echo "START | Releasing module $module"
 
 case "$module" in
-  "common"|"node"|"next"|"react"|"react-native")
-    echo "RELEASE module: $module"
-    ;;
-  *)
-    echo "Invalid module to release | Valids: [node|next|react|react-native]"
-    exit 1
-    ;;
+"common" | "node" | "next" | "react" | "react-native")
+  echo "RELEASE module: $module"
+  ;;
+*)
+  echo "Invalid module to release | Valids: [node|next|react|react-native]"
+  exit 1
+  ;;
 esac
 
 echo "Cleaning up release folder"
@@ -18,16 +18,16 @@ rm -rf packages/$module/dist
 
 build_mode=$2
 case "$build_mode" in
-  "patch"|"minor"|"major")
-    pnpm --filter "{packages/$module}" version $build_mode
-    ;;
-  "no-version")
-    echo "No versioning for current build!"
-    ;;
-  *)
-    echo "Invalid build_mode to release | Valids: [patch|minor|major]"
-    exit 2
-    ;;
+"patch" | "minor" | "major" | "prepatch" | "preminor" | "premajor" | "prerelease")
+  pnpm --filter "{packages/$module}" version $build_mode
+  ;;
+"no-version")
+  echo "No versioning for current build!"
+  ;;
+*)
+  echo "Invalid build_mode to release | Valids: [patch|minor|major]"
+  exit 2
+  ;;
 esac
 
 echo "Compiling $module"
