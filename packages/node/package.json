@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@eslint/eslintrc": "^3.1.0",
-    "@eslint/js": "^9.9.1",
+    "@eslint/js": "catalog:",
     "@loopback/eslint-config": "^15.0.4",
     "@minimaltech/eslint-common": "latest",
     "eslint-plugin-n": "^17.17.0"
   },
   "devDependencies": {
-    "@types/node": "^20.16.2",
-    "tsconfigs": "5.0.0"
+    "@types/node": "catalog:",
+    "tsconfigs": "catalog:"
   },
   "publishConfig": {
     "access": "public"

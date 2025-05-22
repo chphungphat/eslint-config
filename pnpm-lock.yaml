@@ -4,6 +4,21 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    '@eslint/js':
+      specifier: ^9.9.1
+      version: 9.10.0
+    '@types/node':
+      specifier: ^20.17.9
+      version: 20.17.50
+    tsconfigs:
+      specifier: 5.0.0
+      version: 5.0.0
+    typescript:
+      specifier: '>=4.2.0'
+      version: 5.6.2
+
 importers:
 
   .: {}
@@ -11,7 +26,7 @@ importers:
   packages/common:
     dependencies:
       '@eslint/js':
-        specifier: ^9.9.1
+        specifier: 'catalog:'
         version: 9.10.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.32.1
@@ -29,7 +44,7 @@ importers:
         specifier: ^3.3.2
         version: 3.3.3
       typescript:
-        specifier: '>=4.2.0'
+        specifier: 'catalog:'
         version: 5.6.2
       typescript-eslint:
         specifier: ^8.4.0
@@ -39,10 +54,10 @@ importers:
         specifier: ^8.42.3
         version: 8.42.3
       '@types/node':
-        specifier: ^20.16.2
-        version: 20.16.5
+        specifier: 'catalog:'
+        version: 20.17.50
       tsconfigs:
-        specifier: 5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
 
   packages/next:
@@ -54,14 +69,14 @@ importers:
         specifier: ^14.2.3
         version: 14.2.11
       typescript:
-        specifier: '>=4.2.0'
+        specifier: 'catalog:'
         version: 5.6.2
     devDependencies:
       '@types/node':
-        specifier: ^20.16.2
-        version: 20.16.5
+        specifier: 'catalog:'
+        version: 20.17.50
       tsconfigs:
-        specifier: 5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
 
   packages/node:
@@ -70,7 +85,7 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       '@eslint/js':
-        specifier: ^9.9.1
+        specifier: 'catalog:'
         version: 9.10.0
       '@loopback/eslint-config':
         specifier: ^15.0.4
@@ -83,10 +98,10 @@ importers:
         version: 17.17.0(eslint@8.57.0)
     devDependencies:
       '@types/node':
-        specifier: ^20.16.2
-        version: 20.16.5
+        specifier: 'catalog:'
+        version: 20.17.50
       tsconfigs:
-        specifier: 5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
 
   packages/react:
@@ -104,14 +119,14 @@ importers:
         specifier: ^0.4.11
         version: 0.4.12(eslint@8.57.0)
       typescript:
-        specifier: '>=4.2.0'
+        specifier: 'catalog:'
         version: 5.6.2
     devDependencies:
       '@types/node':
-        specifier: ^20.16.2
-        version: 20.16.5
+        specifier: 'catalog:'
+        version: 20.17.50
       tsconfigs:
-        specifier: 5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
 
   packages/react-native:
@@ -123,14 +138,14 @@ importers:
         specifier: ^7.1.2
         version: 7.1.2(eslint@8.57.0)(typescript@5.6.2)
       typescript:
-        specifier: '>=4.2.0'
+        specifier: 'catalog:'
         version: 5.6.2
     devDependencies:
       '@types/node':
-        specifier: ^20.16.2
-        version: 20.16.5
+        specifier: 'catalog:'
+        version: 20.17.50
       tsconfigs:
-        specifier: 5.0.0
+        specifier: 'catalog:'
         version: 5.0.0
 
 packages:
@@ -247,8 +262,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.16.5':
-    resolution: {integrity: sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==}
+  '@types/node@20.17.50':
+    resolution: {integrity: sha512-Mxiq0ULv/zo1OzOhwPqOA13I81CV/W3nvd3ChtQZRT5Cwz3cr0FKo/wMSsbTqL3EXpaBAEQhva2B8ByRkOIh9A==}
 
   '@typescript-eslint/eslint-plugin@7.18.0':
     resolution: {integrity: sha512-94EQTWZ40mzBc42ATNIBimBEDltSJ9RQHCC8vc/PDbxi4k8dVwUAv4o98dk50M1zB+JGFxp43FP7f8+FP8R6Sw==}
@@ -1674,7 +1689,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.16.5':
+  '@types/node@20.17.50':
     dependencies:
       undici-types: 6.19.8
 

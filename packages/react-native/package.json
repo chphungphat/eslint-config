@@ -14,11 +14,11 @@
   "dependencies": {
     "@minimaltech/eslint-react": "latest",
     "eslint-config-expo": "^7.1.2",
-    "typescript": ">=4.2.0"
+    "typescript": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "^20.16.2",
-    "tsconfigs": "5.0.0"
+    "@types/node": "catalog:",
+    "tsconfigs": "catalog:"
   },
   "publishConfig": {
     "access": "public"

@@ -1,2 +1,9 @@
 packages:
   - "packages/*"
+
+catalog:
+  'typescript': '>=4.2.0'
+  '@eslint/js': '^9.9.1'
+
+  '@types/node': '^20.17.9'
+  'tsconfigs': '5.0.0'

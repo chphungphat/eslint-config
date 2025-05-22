@@ -16,11 +16,11 @@
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.11",
-    "typescript": ">=4.2.0"
+    "typescript": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "^20.16.2",
-    "tsconfigs": "5.0.0"
+    "@types/node": "catalog:",
+    "tsconfigs": "catalog:"
   },
   "publishConfig": {
     "access": "public"
