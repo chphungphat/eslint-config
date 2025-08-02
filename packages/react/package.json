@@ -12,11 +12,14 @@
     "version": "pnpm version --no-git-tag-version"
   },
   "dependencies": {
+    "@eslint/js": "catalog:",
     "@minimaltech/eslint-common": "latest",
-    "eslint-plugin-react": "^7.34.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "typescript": "catalog:"
+    "@typescript-eslint/utils": "catalog:",
+    "eslint-plugin-react": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:"
   },
   "devDependencies": {
     "@types/node": "catalog:",

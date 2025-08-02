@@ -3,7 +3,7 @@ import js from "@eslint/js";
 import commonPlugin from "@minimaltech/eslint-common";
 import tsEslint from "typescript-eslint";
 
-import * as reactRefreshPlugin from "eslint-plugin-react-refresh";
+import reactRefreshPlugin from "eslint-plugin-react-refresh";
 
 const compat = new FlatCompat({
   recommendedConfig: js.configs.recommended,

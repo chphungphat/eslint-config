@@ -1,9 +1,26 @@
 packages:
-  - "packages/*"
+  - packages/*
 
 catalog:
-  'typescript': '>=4.2.0'
-  '@eslint/js': '^9.9.1'
+  '@eslint/eslintrc': ^3.3.1
+  '@eslint/js': ^9.32.0
+  '@loopback/eslint-config': ^16.0.0
+  '@types/node': ^22.14.1
+  '@typescript-eslint/eslint-plugin': ^8.38.0
+  '@typescript-eslint/parser': ^8.38.0
+  '@typescript-eslint/utils': ^8.38.0
+  eslint: ^9.32.0
+  eslint-config-expo: ^7.1.2
+  eslint-config-prettier: ^10.1.8
+  eslint-plugin-n: ^17.21.3
+  eslint-plugin-prettier: ^5.5.3
+  eslint-plugin-react: ^7.37.5
+  eslint-plugin-react-hooks: ^5.2.0
+  eslint-plugin-react-refresh: ^0.4.20
+  prettier: ^3.6.2
+  tsconfigs: 5.0.0
+  typescript: 5.8.3
+  typescript-eslint: ^8.38.0
 
-  '@types/node': '^20.17.9'
-  'tsconfigs': '5.0.0'
+onlyBuiltDependencies:
+  - unrs-resolver

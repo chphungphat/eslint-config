@@ -12,11 +12,13 @@
     "version": "pnpm version --no-git-tag-version"
   },
   "dependencies": {
-    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/eslintrc": "catalog:",
     "@eslint/js": "catalog:",
-    "@loopback/eslint-config": "^15.0.4",
+    "@loopback/eslint-config": "catalog:",
     "@minimaltech/eslint-common": "latest",
-    "eslint-plugin-n": "^17.17.0"
+    "eslint-plugin-n": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:"
   },
   "devDependencies": {
     "@types/node": "catalog:",

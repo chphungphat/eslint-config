@@ -7,7 +7,7 @@
   "private": true,
   "engines": {
     "node": ">=18",
-    "pnpm": ">=8"
+    "pnpm": ">=10"
   },
   "scripts": {
     "deps-clean": "rm -rf ./pnpm-lock.yaml ./node_modules ./packages*/node_modules ./packages/*/dist",
