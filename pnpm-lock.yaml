@@ -106,7 +106,7 @@ importers:
         version: 9.35.0
       '@minimaltech/eslint-react':
         specifier: latest
-        version: 0.1.17(eslint@9.35.0)
+        version: 0.1.17(@types/eslint@9.6.1)(eslint@9.35.0)
       '@next/eslint-plugin-next':
         specifier: ^14.2.3
         version: 14.2.32
@@ -140,7 +140,7 @@ importers:
         version: 9.35.0
       '@minimaltech/eslint-common':
         specifier: latest
-        version: 0.0.24(@types/eslint@9.6.1)
+        version: 0.0.26(@types/eslint@9.6.1)
       eslint:
         specifier: 'catalog:'
         version: 9.35.0
@@ -168,7 +168,7 @@ importers:
         version: 9.35.0
       '@minimaltech/eslint-common':
         specifier: latest
-        version: 0.0.24(@types/eslint@9.6.1)
+        version: 0.0.26(@types/eslint@9.6.1)
       '@typescript-eslint/utils':
         specifier: 'catalog:'
         version: 8.44.0(eslint@9.35.0)(typescript@5.8.3)
@@ -202,7 +202,7 @@ importers:
         version: 9.35.0
       '@minimaltech/eslint-react':
         specifier: latest
-        version: 0.1.17(eslint@9.35.0)
+        version: 0.1.17(@types/eslint@9.6.1)(eslint@9.35.0)
       eslint-config-expo:
         specifier: 'catalog:'
         version: 10.0.0(eslint@9.35.0)(typescript@5.8.3)
@@ -286,8 +286,8 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@minimaltech/eslint-common@0.0.24':
-    resolution: {integrity: sha512-4+GT3YWgQjo9/xPEjDiTaANNQvwleM9Y4AVvZe3P2q+2iZIstonBBceIK3sYhIF8DeFqBeOw+m5QzqbsLySMLQ==}
+  '@minimaltech/eslint-common@0.0.26':
+    resolution: {integrity: sha512-YUBIbPsijpHQspbuU6l4c/2X4MzheFabhZ1wP6Ic9LakWOtbLufyybQxoUJJEjptd82Xsgp92HOwmrnpYmA2Ug==}
 
   '@minimaltech/eslint-react@0.1.17':
     resolution: {integrity: sha512-OeN6QQGTaO7Fjkj04GGBYuw1f24rLC6iLoCEAp2VD/0IA/dr9KJbsc+Y9MUMm6hvfV8XLTlpDqDqnyNfV6A0KQ==}
@@ -1735,7 +1735,7 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@minimaltech/eslint-common@0.0.24(@types/eslint@9.6.1)':
+  '@minimaltech/eslint-common@0.0.26(@types/eslint@9.6.1)':
     dependencies:
       '@eslint/js': 9.35.0
       '@typescript-eslint/parser': 8.38.0(eslint@9.35.0)(typescript@5.8.3)
@@ -1750,10 +1750,10 @@ snapshots:
       - jiti
       - supports-color
 
-  '@minimaltech/eslint-react@0.1.17(eslint@9.35.0)':
+  '@minimaltech/eslint-react@0.1.17(@types/eslint@9.6.1)(eslint@9.35.0)':
     dependencies:
       '@eslint/js': 9.35.0
-      '@minimaltech/eslint-common': 0.0.24(@types/eslint@9.6.1)
+      '@minimaltech/eslint-common': 0.0.26(@types/eslint@9.6.1)
       '@typescript-eslint/utils': 8.44.0(eslint@9.35.0)(typescript@5.8.3)
       eslint-plugin-react: 7.37.5(eslint@9.35.0)
       eslint-plugin-react-hooks: 5.2.0(eslint@9.35.0)
