@@ -1,4 +1,5 @@
 import eslint from "@eslint/js";
+import tsEslint from "typescript-eslint";
 import prettierRecommended from "eslint-plugin-prettier/recommended";
 import { defineConfig } from "eslint/config";
 
@@ -14,6 +15,7 @@ const VALID_NAMING_TYPES = [
 const configs = defineConfig([
   eslint.configs.recommended,
   prettierRecommended,
+  tsEslint.configs.recommended,
   {
     files: [
       "**/*.js",

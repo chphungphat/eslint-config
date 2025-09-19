@@ -1,6 +1,7 @@
 import { defineConfig } from "eslint/config";
+import tsEslint from "typescript-eslint";
 
-const lbRules = defineConfig({
+const lbRules = defineConfig(tsEslint.configs.recommended, {
   rules: {
     "prefer-const": "error",
     "no-mixed-operators": "off",
