@@ -1,6 +1,7 @@
 import eslint from "@eslint/js";
+import tsParser from "@typescript-eslint/parser";
 import prettierRecommended from "eslint-plugin-prettier/recommended";
-import tsEslint from "typescript-eslint";
+import { defineConfig } from "eslint/config";
 
 const VALID_NAMING_TYPES = [
   "RootState",
@@ -11,7 +12,7 @@ const VALID_NAMING_TYPES = [
   "Props",
 ].join("|");
 
-const configs: ReturnType<typeof tsEslint.config> = [
+const configs = defineConfig([
   eslint.configs.recommended,
   prettierRecommended,
   {
@@ -26,6 +27,7 @@ const configs: ReturnType<typeof tsEslint.config> = [
       "**/*.tsx",
     ],
     languageOptions: {
+      parser: tsParser,
       parserOptions: {
         project: "./tsconfig.json",
       },
@@ -179,6 +181,6 @@ const configs: ReturnType<typeof tsEslint.config> = [
       "**/.prettierrc.*",
     ],
   },
-];
+]);
 
 export = configs;
