@@ -14,8 +14,8 @@
   "dependencies": {
     "@eslint/eslintrc": "catalog:",
     "@eslint/js": "catalog:",
-    "@loopback/eslint-config": "catalog:",
     "@minimaltech/eslint-common": "latest",
+    "eslint": "catalog:",
     "eslint-plugin-n": "catalog:",
     "typescript": "catalog:",
     "typescript-eslint": "catalog:"
