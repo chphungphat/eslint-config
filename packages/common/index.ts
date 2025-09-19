@@ -139,6 +139,7 @@ const configs = defineConfig([
       "@typescript-eslint/no-invalid-void-type": "off",
       "@typescript-eslint/no-confusing-void-expression": "off",
       "@typescript-eslint/no-extraneous-class": "off",
+      "@typescript-eslint/no-require-imports": "off",
 
       "@typescript-eslint/prefer-nullish-coalescing": "off",
       "@typescript-eslint/strict-boolean-expressions": "off",
