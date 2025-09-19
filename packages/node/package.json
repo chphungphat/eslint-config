@@ -14,7 +14,8 @@
   "dependencies": {
     "@eslint/eslintrc": "catalog:",
     "@eslint/js": "catalog:",
-    "@minimaltech/eslint-common": "latest",
+    "@minimaltech/eslint-common": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-n": "catalog:",
     "typescript": "catalog:",

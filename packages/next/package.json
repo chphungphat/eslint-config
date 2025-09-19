@@ -15,6 +15,7 @@
     "@eslint/js": "catalog:",
     "@minimaltech/eslint-react": "latest",
     "@next/eslint-plugin-next": "^14.2.3",
+    "@typescript-eslint/eslint-plugin": "catalog:",
     "@typescript-eslint/parser": "catalog:",
     "@typescript-eslint/utils": "catalog:",
     "typescript": "catalog:",

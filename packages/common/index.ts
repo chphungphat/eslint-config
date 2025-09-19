@@ -1,5 +1,4 @@
 import eslint from "@eslint/js";
-import tsParser from "@typescript-eslint/parser";
 import prettierRecommended from "eslint-plugin-prettier/recommended";
 import { defineConfig } from "eslint/config";
 
@@ -27,7 +26,6 @@ const configs = defineConfig([
       "**/*.tsx",
     ],
     languageOptions: {
-      parser: tsParser,
       parserOptions: {
         project: "./tsconfig.json",
       },
