@@ -1,7 +1,7 @@
 import { FlatCompat } from "@eslint/eslintrc";
 import js from "@eslint/js";
 import commonPlugin from "@minimaltech/eslint-common";
-import tsEslint from "typescript-eslint";
+// import tsEslint from "typescript-eslint";
 
 import reactRefreshPlugin from "eslint-plugin-react-refresh";
 
@@ -11,7 +11,6 @@ const compat = new FlatCompat({
 });
 
 const configs = [
-  ...tsEslint.configs.recommended,
   ...compat.extends("plugin:eslint-plugin-react/recommended"),
   ...compat.extends("plugin:eslint-plugin-react-hooks/recommended"),
   ...commonPlugin,
