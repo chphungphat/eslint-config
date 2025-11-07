@@ -12,20 +12,20 @@
     "version": "pnpm version --no-git-tag-version"
   },
   "dependencies": {
-    "@eslint/js": "catalog:",
-    "@typescript-eslint/eslint-plugin": "catalog:",
-    "@typescript-eslint/parser": "catalog:",
-    "eslint": "catalog:",
-    "eslint-config-prettier": "catalog:",
-    "eslint-plugin-prettier": "catalog:",
-    "prettier": "catalog:",
-    "typescript": "catalog:",
-    "typescript-eslint": "catalog:"
+    "@eslint/js": "^9.32.0",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "prettier": "^3.6.2",
+    "typescript": "5.8.3",
+    "typescript-eslint": "^8.44.0"
   },
   "devDependencies": {
     "@types/eslint__js": "^8.42.3",
-    "@types/node": "catalog:",
-    "tsconfigs": "catalog:"
+    "@types/node": "^22.14.1",
+    "tsconfigs": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"

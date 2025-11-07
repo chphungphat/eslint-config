@@ -12,18 +12,18 @@
     "version": "pnpm version --no-git-tag-version"
   },
   "dependencies": {
-    "@eslint/eslintrc": "catalog:",
-    "@eslint/js": "catalog:",
-    "@minimaltech/eslint-common": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "catalog:",
-    "eslint": "catalog:",
-    "eslint-plugin-n": "catalog:",
-    "typescript": "catalog:",
-    "typescript-eslint": "catalog:"
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.32.0",
+    "@minimaltech/eslint-common": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-n": "^17.21.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "^8.44.0"
   },
   "devDependencies": {
-    "@types/node": "catalog:",
-    "tsconfigs": "catalog:"
+    "@types/node": "^22.14.1",
+    "tsconfigs": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
